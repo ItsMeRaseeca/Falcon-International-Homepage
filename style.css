@@ -205,10 +205,50 @@
       .card-body>p{
         padding-right: 50px;
       }
-      .carousel-control-next{
-        padding-right: 150px;
-      }
+      #buttonnext{
+        margin-top: 450px;
+    } 
   }
+
+#buttonnext{
+    height: 50px;
+    width: 60px;
+    padding-top: 150px;
+}
+
+  @media (min-width: 1540px){
+    #products{
+        padding-left: 150px;
+    }
+  }
+
+
+  @media (min-width: 1750px){
+    #products{
+        padding-left: 300px;
+    }
+    #buttonnext{
+        margin-right: 180px;
+    }
+    #prod-nav{
+         padding-right: 220px;
+    }
+  }
+
+
+#prod-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-pills button{
+    padding-left: 40px;
+}
+
+#prod-h2{
+    padding-top: 100px;
+    padding-left: 200px;
+}
 
 .card-spec{
     height: 220px;
@@ -373,7 +413,6 @@ footer{
  footer .copyright{
     font-size: 13px;
  }
-
 
  a {
     text-decoration: none;
