@@ -1,41 +1,25 @@
-.nav-pills {
-    --bs-nav-pills-border-radius: var(--bs-border-radius);
-    --bs-nav-pills-link-active-color: #fff;
-    --bs-nav-pills-link-active-bg: #0d6efd;
-    padding-left: 70px;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fffffe !important;
-    border-bottom: 1px solid #fff;
-    font-family: 'Helvetica Neue';
-    font-weight: 500;
-    background: transparent;
-    border-radius: 0;
-}
-
-.nav-pills .nav-link {
-    color: #efedea;
-    font-family: 'Helvetica Neue';
-    border-bottom: 1px solid #efedea;
-    background: transparent;
-    border-radius: 0;
-    width: 100%;
-    font-size: 20px;
-}
-
-.nav-pills .nav-link {
-    color: #efedea;
-    font-family: 'Helvetica Neue';
-    border-bottom: 1px solid #efedea;
-    background: transparent;
-    border-radius: 0;
-    width: 100%;
-    font-size: 20px;
-}
-
 #navbar{
     background-color: white;
+}
+
+.nav-link.active{
+    font-size: larger;
+    font-weight: bolder; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    margin-bottom: 3px;
+    background-color: #1F5351;
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: none !important;
+    border: none;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
 }
 
 .navbar-brand,.mIN{
@@ -91,6 +75,7 @@
     background-color: #fff0ce;
     margin-bottom: -22.5px;
 }
+
 
 .info{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -174,7 +159,7 @@
         margin-top: 40px !important;
     }
     .certificates-img{
-        margin-bottom: 40px;
+        padding-bottom: 40px;
        }
   }
 
@@ -291,7 +276,6 @@
     background-color: #FFD370;
     color: black;
     font-weight: 500;
-    padding: 2px 0px 2px 0px;
 }
 
 #features{
@@ -301,14 +285,15 @@
 #features>h3{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 100;
-    padding-left: 220px;
+    padding-left: 117px;
     padding-top: 100px;
 }
 
 .f{
     background-color: #DAD0AD;
     border-radius: 20px;
-    padding:  25px 30px;
+    padding: 25px;
+    height: 250px;
 }
 
 .f1{
@@ -328,7 +313,7 @@
     font-weight: 100;
     font-size: 16px;
 } 
-
+/* 
 .certificates{
     border-bottom: 1px solid #4b4637;
 }
@@ -339,7 +324,7 @@
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
     background: #dbd0ad;
-}
+} */
 
 .blog_section{
     margin: 0rem 0rem -14.9rem 0rem;
@@ -429,3 +414,4 @@ footer{
     gap: 5px;
     border-radius: 20px;
 }
+
