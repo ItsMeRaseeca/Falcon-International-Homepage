@@ -2,6 +2,26 @@
     background-color: white;
 }
 
+html{
+    background-color: #FFF0CE;
+}
+
+@media(min-width: 1400px){
+    .navbar-nav{
+        padding-left: 300px;
+    }
+}
+
+@media(min-width: 985px) and (max-width: 1199px){
+    .navbar-brand{
+        padding-right: 50px;
+    }
+    #falcon-title{
+        font-size: 15px;
+    }
+    
+}
+
 .nav-link.active{
     font-size: larger;
     font-weight: bolder; 
@@ -125,6 +145,16 @@
     margin-left: -50px;
 }
 
+@media (max-width: 991px){
+    .fal-header{
+        display: flex;
+        flex-wrap: nowrap !important;
+    }
+    #fal-logo{
+        width: 10%;
+    }
+}
+
 @media (min-width: 319px) and (max-width: 480px) {
     #features>h3{
         margin-left: -200px;
@@ -179,11 +209,6 @@
         display: flex;
         justify-content: center;
       }
-    
-      .carousel-item {
-        margin-left: 120px; 
-      }
-    
       .carousel-item .d-flex {
         flex-direction: column;
       }
@@ -193,7 +218,14 @@
       #buttonnext{
         margin-top: 450px;
     } 
+
   }
+
+@media(max-width: 993px){
+    .nav-item{
+        border-bottom: 1px solid white;
+    }
+}
 
 #buttonnext{
     height: 50px;
@@ -258,7 +290,6 @@
 .navbar-nav{
     border-bottom: 0.8px solid white;
     display: center;
-    gap: 65px;
     margin-left: 20px;
     padding-top: 25px;
     padding-bottom: 15px;
@@ -313,18 +344,6 @@
     font-weight: 100;
     font-size: 16px;
 } 
-/* 
-.certificates{
-    border-bottom: 1px solid #4b4637;
-}
-
-.owl-theme .owl-dots .owl-dot span{
-    background: #fff;
-
-}
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
-    background: #dbd0ad;
-} */
 
 .blog_section{
     margin: 0rem 0rem -14.9rem 0rem;
