@@ -15,14 +15,67 @@ html{
     }
 }
 
-@media(min-width: 985px) and (max-width: 1199px){
-    .navbar-brand{
-        padding-right: 50px;
-    }
-    #falcon-title{
-        font-size: 15px;
-    }
-    
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+.navbar .dropdown-menu {
+    border-radius: 0;
+    border: none;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.third_level .dropdown-item {
+    padding: 10px 12px;
+}
+
+ul.submenu.dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -30px;
+    left: 100%;
+}
+
+.dropdown-item:hover{
+    background-color: black;
+    color: white !important;
+}
+
+.know-more:hover{
+    background-color: #1f5351;
+    color: white;
+  }
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: var(--bs-dropdown-link-color);
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-radius: var(--bs-dropdown-item-border-radius,0);
+}
+
+.dropdown-toggle::after {
+    content: '+' !important;
+    font-family: 'bootstrap-icons';
+    font-weight: 900;
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 0;
+    border-left: none;
 }
 
 .prod-text{
@@ -43,6 +96,7 @@ html{
     margin-bottom: 3px;
     background-color: #1F5351;
     border: none;
+    font-weight: 500 !important;
 }
 
 .nav-tabs .nav-link {
@@ -50,11 +104,6 @@ html{
     border: none;
     border-top-left-radius: none;
     border-top-right-radius: none;
-}
-
-.navbar-brand,.mIN{
-    font-family: 'Taviraj SemiBold';
-    font-size: 17px;
 }
 
 #navigation{
@@ -66,10 +115,8 @@ html{
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-left: 100px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 15px;
-    font-weight: 500;
 }
 
 .lead{
@@ -98,7 +145,7 @@ html{
 }
 
 #information{
-    background-color: #fff0ce;
+    background-color: #F2ECDC;
     margin-bottom: -22.5px;
 }
 
@@ -155,9 +202,6 @@ html{
     .fal-header{
         display: flex;
         flex-wrap: nowrap !important;
-    }
-    #fal-logo{
-        width: 10%;
     }
 }
 
