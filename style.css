@@ -86,8 +86,8 @@ ul.submenu.dropdown-menu.show {
     color: #dad9d9;
 }
 
-.nav-link.active{
-    font-size: 10px;
+.nav-link{
+    font-size: 16px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
